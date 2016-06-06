@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository lets git know that the directory is, in
+fact, a repository. It creates a .git folder in the repository that
+contains the information git needs for version control. 
+
+Additionally, since every commit is a conscious decision accompanied
+by a comment, git needs to be initialized without any initial commits
+so that the user can make the appropriate decisions about what to commit.

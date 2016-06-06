@@ -1,0 +1,59 @@
+Viewing a diff between two files was very valuable, as it turned a
+tedious process of comparing each element of the files by hand into
+an efficient, methodical comparison. It was very easy to identy
+even subtle typos when it was laid out on a separate line.
+
+How could having easy access to the entire history of a file make you
+a more efficient programmer in the long term?
+
+There are a number of ways having version history can help in the long run.
+
+1. It is easy to revert changes that broke something.
+2. It is easier to revisit ideas that may have been edited out.
+3. You can track progress over time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+	- Commits can be broken up into meaningful chunks
+	- (similar) Commits are not made in nonensical places, like mid-line or on nothing
+	- Commits can be commented
+ 
+Cons
+	- You can forget to make commits
+	- Meaningful commits are user-dependent
+
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+I think Git and Google Docs each function on a different conceptual unit.
+
+Google Docs is built on a document as the foundational concept. Thus,
+Google Docs has made a number of descisions to support editing a single document.
+You can only really view one document at a time, but you also get a complete
+stroke-by-stroke history of all changes ever made to the document, which can be
+pretty handy when you're visually working through the history of a document.
+
+On the other hand, Git's foundational concept is a project. A project may be a
+document, but it might also be a variety of other assets bundled together. Many
+coding projects are structured this way - there may be a file the describes the
+interface, another that handles the logic, and a third that holds data. In this
+situation, a meaningful edit may be changing the name of a variable in all three
+of these files. Thus, that change should be contained in a single commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the history of commits made to the repository
+git diff can be used to compare two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+When it's easy to isolate where things went wrong and revert the change, it's much
+easier to decide to experiment, knowing you can always go back to before you broke
+it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'm planning to use git for the course on learning Android app design.
