@@ -22,3 +22,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 You can use git diff to compare the staging area to the working directory to the
 current commit. These comparisons will show you how you have changed the file and
 where. If you have made more than one logical change, you will be able to separate them.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches help when you want to work on different paths for the project or
+when you want to do things like maintain a clean working version while
+you work on new features in other versions. Branches help by keeping a named
+set of commits that you can explore, separate from the master branch. Later
+we will also explore merging features between branches.
