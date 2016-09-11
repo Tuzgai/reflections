@@ -31,3 +31,9 @@ when you want to do things like maintain a clean working version while
 you work on new features in other versions. Branches help by keeping a named
 set of commits that you can explore, separate from the master branch. Later
 we will also explore merging features between branches.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams can show the timeline of when branches were made and what changes
+happened in each branch. They also demonstrate which commits will be reachable
+for each branch.
