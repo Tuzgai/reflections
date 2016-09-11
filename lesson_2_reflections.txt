@@ -45,3 +45,13 @@ states and the state of the commit at the branch point. The result is a single
 commit with two parents, the tips of each of the contributing branches. We
 represent this in a diagram with a line joining the two commits. We do this because
 the two commits are now joined into a single commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros:
+Low effort
+Fast
+Automatic, less error-prone
+
+Cons:
+Some things still need to be merged manually
