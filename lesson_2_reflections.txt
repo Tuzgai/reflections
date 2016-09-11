@@ -16,3 +16,9 @@ files when they're ready to be committed to the repository. I
 think the main value that it offers is letting you ensure that
 each commit is a meaningful, isolated change rather than just
 bundling in all your work together at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff to compare the staging area to the working directory to the
+current commit. These comparisons will show you how you have changed the file and
+where. If you have made more than one logical change, you will be able to separate them.
