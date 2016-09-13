@@ -15,3 +15,19 @@ new feature.
 
 I don't think this is a totally satisfactory answer, I'm hoping to see more in the
 upcoming lesson.
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+1. Branches are separate lines of commits stemming from a single shared origin point.
+They exist in a single repository.
+
+2. Clones are complete copies of a repository.
+
+3. Forks are clones of a repository that are stored on GitHub with some nice additional
+features like attribution and contributor permissions.
+
+You would use branches to differentiate features or paths within a single project. You
+would use a fork to publicly start your own variation on someone else's project. Clones
+are used to make a local copy of a project for your own personal use, but are not the
+standard way to collaborate with GitHub.
