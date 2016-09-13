@@ -2,3 +2,16 @@ When would you want to use a remote repository rather than keeping all your work
 
 Remote repositories allow you to easily share your work and collaborate with others. Much
 like other cloud storage, remote repositories also protect you from local computer failure.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+To phrase this slightly differently: why wouldn't you want Git to automatically pull
+all changes from your remote repository? One reason I can think of is that, if you
+use your remote repository as the 'public-ready version' of your project, you might
+be working on conflicting features in your local repository. This is fine, until Git
+tries to pull a bugfix you made to your public repository that conflicts with your
+new feature.
+
+I don't think this is a totally satisfactory answer, I'm hoping to see more in the
+upcoming lesson.
