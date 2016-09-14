@@ -31,3 +31,12 @@ You would use branches to differentiate features or paths within a single projec
 would use a fork to publicly start your own variation on someone else's project. Clones
 are used to make a local copy of a project for your own personal use, but are not the
 standard way to collaborate with GitHub.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+There are two big benefits to having the last known state of a remote saved locally.
+
+1. You can review changes to your remote before propogating them to your working branch.
+
+2. You can now use both your working repository and a copy of your remote offline, say
+   when you're travelling.
