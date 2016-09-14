@@ -40,3 +40,13 @@ There are two big benefits to having the last known state of a remote saved loca
 
 2. You can now use both your working repository and a copy of your remote offline, say
    when you're travelling.
+   
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without Git or GitHub, I would probably try to collaborate the way I do with other
+projects - passing around documents with 'track changes' enabled. This accomplishes
+some of the same collaboration and note-sharing features of GitHub, but does so
+without robust version control. This means that we can march ever forward in the
+quest to the final document, but can't easily see where we came from or resolve 
+differing views on how the document should turn out.
