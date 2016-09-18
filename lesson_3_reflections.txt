@@ -50,3 +50,11 @@ some of the same collaboration and note-sharing features of GitHub, but does so
 without robust version control. This means that we can march ever forward in the
 quest to the final document, but can't easily see where we came from or resolve 
 differing views on how the document should turn out.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+Similarly to the answer earlier, I would want to make changes in a branch to keep
+different paths of development separate until they are integrated into a final version.
+Additionally, in the context of GitHub, branches are important because they give
+others a chance to review changes before they are pushed to master.
